@@ -58,14 +58,16 @@
         <EditText
             android:id="@+id/edGasolina"
             style="@style/INPUT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:drawableStart="@drawable/custom_gas_icon"
             android:drawablePadding="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginBottom="15dp"
             android:ems="10"
             android:hint="@string/hint_text_gas"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:maxWidth="488dp"
+            android:minHeight="60dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -79,14 +81,16 @@
         <EditText
             android:id="@+id/edAlcool"
             style="@style/INPUT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:drawableStart="@drawable/custom_gas_icon"
             android:drawablePadding="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginBottom="15dp"
             android:ems="10"
-            android:hint="@string/hint_text_gas"
-            android:inputType="numberDecimal" />
+            android:hint="@string/hint_text_alcool"
+            android:inputType="numberDecimal"
+            android:maxWidth="488dp"
+            android:minHeight="60dp" />
 
         <Switch
             android:id="@+id/swPercentual"
@@ -95,6 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginTop="5dp"
+            android:minHeight="48dp"
             android:text="75%" />
 
         <Button
@@ -107,6 +112,7 @@
             android:paddingHorizontal="20dp"
             android:paddingVertical="10dp"
             android:text="@string/actionText"
+            android:textColor="#FFFEFE"
             app:cornerRadius="15dp" />
 
         <TextView
